@@ -1,0 +1,33 @@
+@AngularApp1.Server_HostAddress = https://localhost:7180
+
+GET {{AngularApp1.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{AngularApp1.Server_HostAddress}}/weatherforecast/1
+Content-type: application/json
+
+GET {{AngularApp1.Server_HostAddress}}/api/demo/0
+
+###
+
+GET {{AngularApp1.Server_HostAddress}}/weatherforecast
+
+###
+
+GET {{AngularApp1.Server_HostAddress}}/weatherforecast
+
+###
+
+GET {{AngularApp1.Server_HostAddress}}/weatherforecast
+
+###
+
+GET {{AngularApp1.Server_HostAddress}}/weatherforecast
+
+###
+
+GET {{AngularApp1.Server_HostAddress}}/weatherforecast
+
+###
